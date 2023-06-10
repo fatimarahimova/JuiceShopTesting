@@ -1,0 +1,10 @@
+api: 
+  url: https://ce.contrastsecurity.com/Contrast
+  api_key: ID5j39OZ6uQVt0bVbmIabRa9tTw3Z6Jo
+  service_key: 640LD3L4E3UD28RU
+  user_name: agent_969ddc77-e860-41b6-949e-c08751ce73e7@FatimasOrg
+agent: 
+  service: 
+    grpc: true
+assess: 
+  enable_lazy_tracking: false

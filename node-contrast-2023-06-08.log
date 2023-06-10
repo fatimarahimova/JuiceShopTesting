@@ -1,0 +1,68 @@
+error: 2023-06-08T13:17:02.564Z 12264 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:17:02.565Z 12264 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:17:02.565Z 12264 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:17:02.567Z 12264 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:17:02.568Z 12264 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:17:02.568Z 12264 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:17:02.568Z 12264 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:19:37.305Z 19432 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:19:37.306Z 19432 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:19:37.307Z 19432 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:19:37.309Z 19432 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:19:37.310Z 19432 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:19:37.310Z 19432 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:19:37.310Z 19432 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:27:26.745Z 15488 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:29:05.509Z 9804 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:29:05.510Z 9804 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:29:05.510Z 9804 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:29:05.514Z 9804 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:29:05.514Z 9804 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:29:05.514Z 9804 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:29:05.514Z 9804 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:34:39.185Z 17824 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:34:39.186Z 17824 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:34:39.187Z 17824 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:34:39.190Z 17824 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:34:39.191Z 17824 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:34:39.191Z 17824 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:34:39.191Z 17824 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:35:15.126Z 13328 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:35:15.127Z 13328 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:35:15.128Z 13328 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:35:15.132Z 13328 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:35:15.133Z 13328 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:35:15.133Z 13328 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:35:15.133Z 13328 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:37:22.303Z 11812 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:37:22.303Z 11812 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:37:22.304Z 11812 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:37:22.306Z 11812 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:37:22.307Z 11812 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:37:22.307Z 11812 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:37:22.307Z 11812 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:37:53.068Z 17224 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:37:53.069Z 17224 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:37:53.069Z 17224 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:37:53.072Z 17224 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:37:53.073Z 17224 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:37:53.073Z 17224 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:37:53.073Z 17224 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:39:18.131Z 14300 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:39:18.132Z 14300 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:39:18.133Z 14300 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:39:18.136Z 14300 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:39:18.136Z 14300 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:39:18.136Z 14300 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:39:18.137Z 14300 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:39:59.369Z 15624 contrast:speedracer:startup-message - sending startup message failed: cannot start contrast-service: 1
+error: 2023-06-08T13:39:59.370Z 15624 contrast:speedracer:startup-message - send rejected startup msg: Error: cannot start contrast-service: 1
+error: 2023-06-08T13:39:59.370Z 15624 contrast:tsReporter - Contrast was unable to connect to TeamServer. Continuing without instrumentation.
+error: 2023-06-08T13:39:59.374Z 15624 contrast:system-diagnostics - Missing required option 'api.api_key'
+error: 2023-06-08T13:39:59.375Z 15624 contrast:system-diagnostics - Missing required option 'api.service_key'
+error: 2023-06-08T13:39:59.375Z 15624 contrast:system-diagnostics - Missing required option 'api.url'
+error: 2023-06-08T13:39:59.375Z 15624 contrast:system-diagnostics - Missing required option 'api.user_name'
+error: 2023-06-08T13:42:05.004Z 2596 contrast:hooks - attempt to hook property emit in nonexistent object busboy.prototype
+error: 2023-06-08T14:02:39.645Z 2324 contrast:hooks - attempt to hook property emit in nonexistent object busboy.prototype
+error: 2023-06-08T14:08:15.015Z 1864 contrast:hooks - attempt to hook property emit in nonexistent object busboy.prototype
+error: 2023-06-08T14:09:54.964Z 13996 contrast:hooks - attempt to hook property emit in nonexistent object busboy.prototype

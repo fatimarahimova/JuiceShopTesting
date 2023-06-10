@@ -1,0 +1,709 @@
+{
+  "ReportCreate": "2023-06-08T16:46:18.110Z",
+  "Config": {
+    "EffectiveConfig": {
+      "Values": [
+        {
+          "CanonicalName": "configFile",
+          "Name": "configFile",
+          "Value": "./contrast_security.yaml",
+          "Source": "CLI"
+        },
+        {
+          "CanonicalName": "enable",
+          "Name": "enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.diagnostics.enable",
+          "Name": "agent.diagnostics.enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.diagnostics.quiet",
+          "Name": "agent.diagnostics.quiet",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.logger.append",
+          "Name": "agent.logger.append",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.logger.level",
+          "Name": "agent.logger.level",
+          "Value": "ERROR",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "agent.logger.path",
+          "Name": "agent.logger.path",
+          "Value": "",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "agent.logger.stdout",
+          "Name": "agent.logger.stdout",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.dataflow_monitor",
+          "Name": "agent.node.dataflow_monitor",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.array_request_sampling.enable",
+          "Name": "agent.node.array_request_sampling.enable",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.array_request_sampling.threshold",
+          "Name": "agent.node.array_request_sampling.threshold",
+          "Value": 50,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.array_request_sampling.interval",
+          "Name": "agent.node.array_request_sampling.interval",
+          "Value": 5,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_catch_log",
+          "Name": "agent.node.enable_catch_log",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_property_descriptor_tracking",
+          "Name": "agent.node.enable_property_descriptor_tracking",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_rewrite",
+          "Name": "agent.node.enable_rewrite",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.rewrite_cache.enable",
+          "Name": "agent.node.rewrite_cache.enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_source_maps",
+          "Name": "agent.node.enable_source_maps",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_native_rewrite_log",
+          "Name": "agent.node.enable_native_rewrite_log",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_rewrite_log",
+          "Name": "agent.node.enable_rewrite_log",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.enable_sources_in_deadzones",
+          "Name": "agent.node.enable_sources_in_deadzones",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.library_usage.read_extraneous_libraries",
+          "Name": "agent.node.library_usage.read_extraneous_libraries",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.library_usage.reporting.interval",
+          "Name": "agent.node.library_usage.reporting.interval",
+          "Value": 1,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.library_usage.reporting.enable",
+          "Name": "agent.node.library_usage.reporting.enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.req_perf_logging",
+          "Name": "agent.node.req_perf_logging",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.skip_nested_tracking",
+          "Name": "agent.node.skip_nested_tracking",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.speedracer_input_analysis",
+          "Name": "agent.node.speedracer_input_analysis",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.native_input_analysis",
+          "Name": "agent.node.native_input_analysis",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.analysis_log_dir",
+          "Name": "agent.node.analysis_log_dir",
+          "Value": ".",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.node.unsafe.sr_max_body_size",
+          "Name": "agent.node.unsafe.sr_max_body_size",
+          "Value": 16,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.heap_dump.enable",
+          "Name": "agent.heap_dump.enable",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.heap_dump.path",
+          "Name": "agent.heap_dump.path",
+          "Value": "contrast_heap_dumps",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.heap_dump.delay_ms",
+          "Name": "agent.heap_dump.delay_ms",
+          "Value": 10000,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.heap_dump.window_ms",
+          "Name": "agent.heap_dump.window_ms",
+          "Value": 30000,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.heap_dump.count",
+          "Name": "agent.heap_dump.count",
+          "Value": 5,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.stack_trace_limit",
+          "Name": "agent.stack_trace_limit",
+          "Value": 10,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.traverse_and_track",
+          "Name": "agent.traverse_and_track",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.polling.app_activity_ms",
+          "Name": "agent.polling.app_activity_ms",
+          "Value": 30000,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.polling.app_update_ms",
+          "Name": "agent.polling.app_update_ms",
+          "Value": 60000,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.route_coverage.enable",
+          "Name": "agent.route_coverage.enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.level",
+          "Name": "agent.security_logger.level",
+          "Value": "error",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.path",
+          "Name": "agent.security_logger.path",
+          "Value": "C:\\Users\\rehim\\Downloads\\juice-shop-15.0.0_node18_win32_x64\\juice-shop_15.0.0\\security",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.enable",
+          "Name": "agent.security_logger.syslog.enable",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.ip",
+          "Name": "agent.security_logger.syslog.ip",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.port",
+          "Name": "agent.security_logger.syslog.port",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.facility",
+          "Name": "agent.security_logger.syslog.facility",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.severity_exploited",
+          "Name": "agent.security_logger.syslog.severity_exploited",
+          "Value": "notice",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.severity_blocked",
+          "Name": "agent.security_logger.syslog.severity_blocked",
+          "Value": "notice",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.security_logger.syslog.severity_probed",
+          "Name": "agent.security_logger.syslog.severity_probed",
+          "Value": "warning",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.logger.log_outbound_http",
+          "Name": "agent.logger.log_outbound_http",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.logger.backups",
+          "Name": "agent.logger.backups",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.logger.roll_size",
+          "Name": "agent.logger.roll_size",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.service.host",
+          "Name": "agent.service.host",
+          "Value": "127.0.0.1",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.service.port",
+          "Name": "agent.service.port",
+          "Value": 30555,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "agent.service.grpc",
+          "Name": "agent.service.grpc",
+          "Value": true,
+          "Source": "YAML"
+        },
+        {
+          "CanonicalName": "application.args",
+          "Name": "application.args",
+          "Value": [],
+          "Source": "CLI"
+        },
+        {
+          "CanonicalName": "application.language",
+          "Name": "application.language",
+          "Value": "Node",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "application.name",
+          "Name": "application.name",
+          "Value": "juice-shop"
+        },
+        {
+          "CanonicalName": "application.path",
+          "Name": "application.path",
+          "Value": "/",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.enable",
+          "Name": "assess.enable",
+          "Value": true,
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "assess.trust_custom_validators",
+          "Name": "assess.trust_custom_validators",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.enable_sanitizer_serve_static",
+          "Name": "assess.enable_sanitizer_serve_static",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.enable_preflight",
+          "Name": "assess.enable_preflight",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.enable_propagators",
+          "Name": "assess.enable_propagators",
+          "Value": true,
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "assess.sampling.enable",
+          "Name": "assess.sampling.enable",
+          "Value": {
+            "enabled": false,
+            "baseline": 5,
+            "windowMs": 180000,
+            "requestFrequency": 10,
+            "responseFrequency": 0
+          },
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "assess.sampling.baseline",
+          "Name": "assess.sampling.baseline",
+          "Value": 5,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.tags",
+          "Name": "assess.tags",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "assess.enable_lazy_tracking",
+          "Name": "assess.enable_lazy_tracking",
+          "Value": false,
+          "Source": "YAML"
+        },
+        {
+          "CanonicalName": "assess.enable_lazy_stacktraces",
+          "Name": "assess.enable_lazy_stacktraces",
+          "Value": false,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "inventory.analyze_libraries",
+          "Name": "inventory.analyze_libraries",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "inventory.enable",
+          "Name": "inventory.enable",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.enable_rep",
+          "Name": "protect.enable_rep",
+          "Value": true,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.auth.mode",
+          "Name": "protect.auth.mode",
+          "Value": "OFF",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.samples.blocked",
+          "Name": "protect.samples.blocked",
+          "Value": 25,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.samples.blocked_at_perimeter",
+          "Name": "protect.samples.blocked_at_perimeter",
+          "Value": 25,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.samples.exploited",
+          "Name": "protect.samples.exploited",
+          "Value": 100,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.samples.probed",
+          "Name": "protect.samples.probed",
+          "Value": 50,
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "protect.rules.disabled_rules",
+          "Name": "protect.rules.disabled_rules",
+          "Value": "",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "bot-blocker",
+          "Name": "protect.rules.bot-blocker.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "cmd-injection",
+          "Name": "protect.rules.cmd-injection.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "cmd-injection-command-backdoors",
+          "Name": "protect.rules.cmd-injection-command-backdoors.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "cmd-injection-semantic-chained-commands",
+          "Name": "protect.rules.cmd-injection-semantic-chained-commands.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "cmd-injection-semantic-dangerous-paths",
+          "Name": "protect.rules.cmd-injection-semantic-dangerous-paths.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "ip-denylist",
+          "Name": "protect.rules.ip-denylist.mode",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "method-tampering",
+          "Name": "protect.rules.method-tampering.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "nosql-expansion",
+          "Name": "protect.rules.nosql-expansion.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "nosql-injection",
+          "Name": "protect.rules.nosql-injection.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "path-traversal",
+          "Name": "protect.rules.path-traversal.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "reflected-xss",
+          "Name": "protect.rules.reflected-xss.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "sql-injection",
+          "Name": "protect.rules.sql-injection.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "ssjs-injection",
+          "Name": "protect.rules.ssjs-injection.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "virtual-patch",
+          "Name": "protect.rules.virtual-patch.mode",
+          "Value": [],
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "untrusted-deserialization",
+          "Name": "protect.rules.untrusted-deserialization.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "unsafe-file-upload",
+          "Name": "protect.rules.unsafe-file-upload.mode",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "xxe",
+          "Name": "protect.rules.xxe.mode",
+          "Value": "BLOCK",
+          "Source": "ContrastUI"
+        },
+        {
+          "CanonicalName": "server.name",
+          "Name": "server.name",
+          "Value": "DESKTOP-IAJP5HP",
+          "Source": "DEFAULT"
+        },
+        {
+          "CanonicalName": "server.type",
+          "Name": "server.type",
+          "Value": "node.js v18.16.0",
+          "Source": "DEFAULT"
+        }
+      ]
+    },
+    "Environment": [],
+    "CommandLine": [
+      {
+        "CanonicalName": "configFile",
+        "Name": "configFile",
+        "Value": "./contrast_security.yaml",
+        "Source": "CLI"
+      },
+      {
+        "CanonicalName": "application.args",
+        "Name": "application.args",
+        "Value": [],
+        "Source": "CLI"
+      }
+    ],
+    "ContrastUI": [
+      {
+        "CanonicalName": "agent.logger.level",
+        "Name": "agent.logger.level",
+        "Value": "ERROR",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "agent.logger.path",
+        "Name": "agent.logger.path",
+        "Value": "",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "assess.enable",
+        "Name": "assess.enable",
+        "Value": true,
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "assess.enable_propagators",
+        "Name": "assess.enable_propagators",
+        "Value": true,
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "assess.sampling.enable",
+        "Name": "assess.sampling.enable",
+        "Value": {
+          "enabled": false,
+          "baseline": 5,
+          "windowMs": 180000,
+          "requestFrequency": 10,
+          "responseFrequency": 0
+        },
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "cmd-injection",
+        "Name": "protect.rules.cmd-injection.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "ip-denylist",
+        "Name": "protect.rules.ip-denylist.mode",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "method-tampering",
+        "Name": "protect.rules.method-tampering.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "nosql-injection",
+        "Name": "protect.rules.nosql-injection.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "path-traversal",
+        "Name": "protect.rules.path-traversal.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "reflected-xss",
+        "Name": "protect.rules.reflected-xss.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "sql-injection",
+        "Name": "protect.rules.sql-injection.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "ssjs-injection",
+        "Name": "protect.rules.ssjs-injection.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "virtual-patch",
+        "Name": "protect.rules.virtual-patch.mode",
+        "Value": [],
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "untrusted-deserialization",
+        "Name": "protect.rules.untrusted-deserialization.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      },
+      {
+        "CanonicalName": "xxe",
+        "Name": "protect.rules.xxe.mode",
+        "Value": "BLOCK",
+        "Source": "ContrastUI"
+      }
+    ],
+    "File": [
+      {
+        "CanonicalName": "agent.service.grpc",
+        "Name": "agent.service.grpc",
+        "Value": true,
+        "Source": "YAML"
+      },
+      {
+        "CanonicalName": "assess.enable_lazy_tracking",
+        "Name": "assess.enable_lazy_tracking",
+        "Value": false,
+        "Source": "YAML"
+      }
+    ],
+    "Status": "Success"
+  }
+}

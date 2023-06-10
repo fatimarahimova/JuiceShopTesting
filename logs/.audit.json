@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "C:\\Users\\rehim\\Downloads\\juice-shop-15.0.0_node18_win32_x64\\juice-shop_15.0.0\\logs/.audit.json",
+    "files": [
+        {
+            "date": 1686162776645,
+            "name": "C:\\Users\\rehim\\Downloads\\juice-shop-15.0.0_node18_win32_x64\\juice-shop_15.0.0\\logs\\access.log.2023-06-07",
+            "hash": "fcb20d7942362f8e47320cb4b1fbe21d"
+        },
+        {
+            "date": 1686229264066,
+            "name": "C:\\Users\\rehim\\Downloads\\juice-shop-15.0.0_node18_win32_x64\\juice-shop_15.0.0\\logs\\access.log.2023-06-08",
+            "hash": "0bc19fa67578bc6f0715708f7bf89833"
+        }
+    ]
+}
